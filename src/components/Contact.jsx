@@ -130,7 +130,7 @@ export default function Contact() {
             <h4 className="text-xl font-semibold text-teal-300">Quick Actions</h4>
             <div className="grid grid-cols-1 gap-3">
               <motion.a 
-                href="/Resume.pdf" 
+                href="./Resume.pdf" 
                 download="Ravichandra_Vajinepalli_Resume.pdf"
                 className="flex items-center justify-between p-4 bg-slate-800/50 rounded-xl border border-teal-500/20 hover:border-teal-400/40 text-gray-300 hover:text-white transition-all duration-300 group"
                 whileHover={{ scale: 1.02 }}
