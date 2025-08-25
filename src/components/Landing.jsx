@@ -23,7 +23,7 @@ export default function Landing() {
           "Cloud & DevOps Engineer",
           "AWS | Docker | Kubernetes | Terraform",
           "CI/CD Automation Specialist",
-          "Infrastructure as Code Advocate"
+          "Infrastructure as Code specialist"
         ]}
         typeSpeed={60}
         backSpeed={40}

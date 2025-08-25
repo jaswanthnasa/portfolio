@@ -12,27 +12,29 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 function App() {
-
   const { darkMode } = useTheme();
 
   return (
-    <main className={`${darkMode ? "bg-[#0e0e10] text-gray-200" : "bg-white text-gray-800"} min-h-screen px-6 py-12 font-sans overflow-x-hidden scroll-smooth`}>
-      {/* Fixed Sections */}
+    <main className={`${darkMode ? "bg-professional-dark text-gray-200" : "bg-white text-gray-800"} min-h-screen font-sans overflow-x-hidden scroll-smooth`}>
+      {/* Fixed Background and Navigation */}
       <AnimatedBackground />
       <Navbar />
       <PageActions />
 
-      {/* Sections with manual spacing */}
-      <div className="pt-24 space-y-24">  {/* Push content below fixed Navbar and add vertical spacing between sections */}
-        <Landing />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Journey />
-        <Contact />
+      {/* Main Content with proper spacing */}
+      <div className="relative z-10">
+        <div className="pt-20 px-4 md:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto space-y-32">
+            <Landing />
+            <Skills />
+            <Experience />
+            <Projects />
+            <Journey />
+            <Contact />
+          </div>
+        </div>
         <Footer />
       </div>
-
     </main>
   );
 }
