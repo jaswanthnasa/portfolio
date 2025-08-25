@@ -35,7 +35,7 @@ export default function PageActions() {
         </motion.button>
 
         <motion.a
-          href="/Resume.pdf"
+          href="./Resume.pdf"
           download="Ravichandra_Vajinepalli_Resume.pdf"
           className="bg-gray-700 hover:bg-gray-600 text-white p-2 rounded-full shadow-xl"
           whileHover={{ scale: 1.2, rotate: -10 }}
