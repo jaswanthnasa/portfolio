@@ -19,7 +19,7 @@ export default function Psych() {
         </div>
         <h1 className="text-5xl font-extrabold text-teal-400">Psych!!</h1>
         <p className="text-gray-300 text-lg">
-          You just fell into my trap! 😄
+          You just fell into my trap! 😄 Why you need PDF when I have modern website for you.
         </p>
         <motion.button
           onClick={() => navigate("/")}
