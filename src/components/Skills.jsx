@@ -37,7 +37,8 @@ import {
   SiSonarqube,
   SiMaven,
   SiHelm,
-  SiMicrosoftazure,
+  SiKong,
+  SiDynatrace,
   SiGooglecloud,
 } from "react-icons/si";
 
@@ -51,16 +52,10 @@ const skillsData = {
       years: "9+"
     },
     { 
-      icon: <SiMicrosoftazure size={40} className="text-blue-500" />, 
-      title: "Azure", 
-      level: "intermediate",
-      years: "2+"
-    },
-    { 
       icon: <SiGooglecloud size={40} className="text-blue-400" />, 
       title: "GCP", 
       level: "intermediate",
-      years: "1+"
+      years: "2+"
     },
   ],
   
@@ -75,7 +70,7 @@ const skillsData = {
       icon: <FaCloud size={40} className="text-orange-500" />, 
       title: "CloudFormation", 
       level: "advanced",
-      years: "5+"
+      years: "7+"
     },
     { 
       icon: <SiAnsible size={40} className="text-red-600" />, 
@@ -99,8 +94,8 @@ const skillsData = {
       years: "3+"
     },
     { 
-      icon: <SiGitlab size={40} className="text-orange-600" />, 
-      title: "GitLab CI", 
+      icon: <SiHarness size={40} className="text-orange-600" />, 
+      title: "Harness", 
       level: "advanced",
       years: "4+"
     },
@@ -131,7 +126,7 @@ const skillsData = {
     { 
       icon: <FaPython size={40} className="text-yellow-400" />, 
       title: "Python", 
-      level: "advanced",
+      level: "Intermediate",
       years: "5+"
     },
     { 
