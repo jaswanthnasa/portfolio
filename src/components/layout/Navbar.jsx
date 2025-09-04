@@ -48,7 +48,7 @@ export default function Navbar() {
         ${darkMode ? "bg-black/40 text-white" : "bg-white/40 text-black"}
       `}
     >
-      <div className="font-bold text-xl tracking-widest">Ravichandra Vajinepalli</div>
+      <div className="font-bold text-xl tracking-widest">Jaswanth Kumar Karuturi</div>
 
       {/* Desktop Navigation */}
       <div className="hidden sm:flex gap-8 items-center">{navLinks}</div>
