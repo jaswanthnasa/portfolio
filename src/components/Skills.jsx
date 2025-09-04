@@ -48,7 +48,7 @@ const skillsData = {
       icon: <FaAws size={40} className="text-orange-400" />, 
       title: "AWS", 
       level: "expert",
-      years: "8+"
+      years: "9+"
     },
     { 
       icon: <SiMicrosoftazure size={40} className="text-blue-500" />, 
