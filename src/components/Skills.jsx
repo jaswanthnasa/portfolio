@@ -91,12 +91,6 @@ const skillsData = {
       level: "expert",
       years: "3+"
     },
-    { 
-      icon: <SiHarness size={40} className="text-orange-600" />, 
-      title: "Harness", 
-      level: "advanced",
-      years: "4+"
-    },
   ],
 
   "Containerization": [
