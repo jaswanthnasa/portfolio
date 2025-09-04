@@ -37,8 +37,6 @@ import {
   SiSonarqube,
   SiMaven,
   SiHelm,
-  SiKong,
-  SiDynatrace,
   SiGooglecloud,
 } from "react-icons/si";
 
