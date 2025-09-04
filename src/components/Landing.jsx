@@ -14,7 +14,7 @@ export default function Landing() {
       animate="show"
     >
       <motion.h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400">
-        Ravichandra Vajinepalli
+        Jaswanth Kumar Karuturi
       </motion.h1>
 
       <ReactTyped
@@ -36,9 +36,9 @@ export default function Landing() {
 
       <motion.div className="flex flex-wrap justify-center gap-4 pt-4">
         {[
-          ['GitHub', Github, "https://github.com/ravichandradevops2025"],
-          ['LinkedIn', Linkedin, "https://www.linkedin.com/in/ravichandravajinepalli/"],
-          ['Email', Mail, "mailto:ravichandra.devops2025@gmail.com"],
+          ['GitHub', Github, "https://github.com/jaswanthnasa"],
+          ['LinkedIn', Linkedin, "https://www.linkedin.com/in/jaswanth-kumar-82442752/"],
+          ['Email', Mail, "mailto:n.jaswanthkumar@gmail.com"],
         ].map(([label, Icon, hrefPath], idx) => (
           <motion.a
             key={idx}
